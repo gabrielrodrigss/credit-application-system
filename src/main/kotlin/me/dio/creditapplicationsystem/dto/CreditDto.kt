@@ -13,7 +13,7 @@ import java.time.LocalDate
 data class CreditDto(
     @field:NotNull(message = "Invalid input") val creditValue: BigDecimal,
     @field:Future val dayFirstOfInstallment: LocalDate,
-    @field:Max(value = 10, message = "Enter a maximum number of 10")
+    @field:Max(value = 48, message = "Enter a maximum number of 10")
     @field:NotNull(message = "Invalid input") val numberOfInstallments: Int,
     @field:NotNull(message = "Invalid input") val customerId: Long,
 
