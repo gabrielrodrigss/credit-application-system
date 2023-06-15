@@ -6,7 +6,6 @@ import me.dio.creditapplicationsystem.repository.CreditRepository
 import me.dio.creditapplicationsystem.service.ICreditService
 import org.springframework.stereotype.Service
 import java.lang.IllegalArgumentException
-import java.lang.RuntimeException
 import java.util.*
 
 @Service
